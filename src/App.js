@@ -10,9 +10,9 @@ function App() {
       <header className="App-header">
        <Login/>
        <Register/>
-       <Counter nombreContador = "FacebookF" icon ={FaFacebookF} href= 'https://www.facebook.com/'/>
-       <Counter nombreContador = "Twitter" icon ={FaTwitter}/>
-       <Counter nombreContador = "Instagram" icon ={FaInstagram}/>
+       <Counter nombreContador = "FacebookF" icon ={FaFacebookF} link= 'https://www.facebook.com/'/>
+       <Counter nombreContador = "Twitter" icon ={FaTwitter} link= 'https://twitter.com/?lang=es' />
+       <Counter nombreContador = "Instagram" icon ={FaInstagram} link= 'https://www.instagram.com/' />
       </header>
       <div className="App-intro">
      
